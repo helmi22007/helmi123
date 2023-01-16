@@ -6,6 +6,10 @@ color: #696969;
 
 }
 
+main{
+    display: flex;
+}
+
 h1{
 color: #FF0000;   
 font-size: 16px; 
