@@ -2,6 +2,11 @@ body {
     margin: 0;
   }
 
+  section{
+    display:flex;
+    flex-direction:row-reverse;
+  }
+
   header, footer {
     background: purple;
     height: 100px;
