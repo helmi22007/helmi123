@@ -2,10 +2,21 @@ body {
     margin: 0;
   }
 
-  section{
-    display:flex;
-    flex-direction:row-reverse;
-  }
+ section{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .main{
+    display: flex;
+ }
+
+ sidebar{
+    margin: 15px;
+    background-color: white;
+    min-width: 120px;
+    text-align: center;
+ }
 
   header, footer {
     background: purple;
@@ -25,3 +36,4 @@ body {
     background: aqua;
 
   }
+  
